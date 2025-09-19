@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class SeatworkTwelve {
-    
 	
+    	
         	public static void checkBalance(int[] balances, int accountNumber) {
             		System.out.println("Your current balance is: " + balances[accountNumber]);
                     	}
@@ -31,6 +31,7 @@ public class SeatworkTwelve {
                                                                                                                                                                                                         	
                                                                                                                                                                                                             	public static void main(String[] args) {
                                                                                                                                                                                                                 			Scanner scanner = new Scanner(System.in);
+                                                                                                                                                                                                                           
                                                                                                                                                                                                                             			
                                                                                                                                                                                                                                         			int[] balances = {1000, 2000, 3000};
                                                                                                                                                                                                                                                     			System.out.println("=== Welcom to Simple Banking System ===");
